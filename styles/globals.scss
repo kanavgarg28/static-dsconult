@@ -7,3 +7,17 @@
     @apply text-6xl font-semibold;
   }
 }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* Optional: Ensures no scrolling */
+}
+
+#__next {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
