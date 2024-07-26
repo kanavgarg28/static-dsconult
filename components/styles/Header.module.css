@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff; /* White background */
+    color: #6a0dad; /* Purple text */
+    border-bottom: 1px solid #000; /* Black thin border */
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #6a0dad; /* Purple text */
+}
+
+.nav {
+    display: flex;
+    gap: 2rem;
+}
+
+.navLink {
+    color: #6a0dad; /* Purple text */
+    text-decoration: none;
+}
+
+.navLink:hover {
+    text-decoration: underline;
+}

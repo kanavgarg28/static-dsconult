@@ -5,7 +5,7 @@ import Image from '../components/Image'
 import styles from '../styles/Home.module.scss'
 import logo from '../public/logo@2x.png'
 
-const About = () => {
+const Testimonials = () => {
     return (
         <Layout1>
           <NextSeo
@@ -30,4 +30,4 @@ const About = () => {
       )
 };
 
-export default About;
+export default Testimonials;

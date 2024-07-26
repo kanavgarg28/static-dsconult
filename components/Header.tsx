@@ -1,35 +1,28 @@
 import Link from './ActiveLink'
+import styles from './styles/Header.module.css';
 
-const Header: React.FC = () => {
+const Header = () => {
   return (
-    <header className="border-b border-gray-200 px-4">
-      <nav>
-        <ul className="flex justify-center gap-8">
-          {[
-            {
-              label: 'Home',
-              href: '/',
-            },
-            {
-              label: 'About',
-              href: '/about/',
-            },
-          ].map(({ href, label }, i) => {
-            return (
-              <li key={i}>
-                <Link
-                  className="text-gray-500 inline-block hover:text-black pt-[1em] px-[0.1em] pb-[0.75em]"
-                  activeClassName="text-black border-b-2 border-solid border-black"
-                  href={href}
-                >
-                  {label}
+    <header className={styles.header}>
+            <div className={styles.logo}>DSCONSULTANT</div>
+            <nav className={styles.nav}>
+                <Link href="/" className={styles.navLink}>
+                    Home
                 </Link>
-              </li>
-            )
-          })}
-        </ul>
-      </nav>
-    </header>
+                <Link href="/about" className={styles.navLink}>
+                    About Us
+                </Link>
+                <Link href="/services" className={styles.navLink}>
+                    Services
+                </Link>
+                <Link href="/testimonials" className={styles.navLink}>
+                    Testimonials
+                </Link>
+                <Link href="/contact" className={styles.navLink}>
+                    Contact Us
+                </Link>
+            </nav>
+        </header>
   )
 }
 
