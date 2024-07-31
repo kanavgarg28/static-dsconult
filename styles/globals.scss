@@ -13,7 +13,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  overflow: hidden; /* Optional: Ensures no scrolling */
+  overflow: auto; /* Optional: Ensures no scrolling */
 }
 
 #__next {

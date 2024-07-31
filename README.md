@@ -1,130 +1,61 @@
-<div align="center">
-  <p><img width="480" alt="NextSSS Logo" src="https://user-images.githubusercontent.com/5457539/151701924-cbdf9ff8-3e9b-4e5c-b036-43e1ec0bbbef.png"></p>
-</div>
+# Startup - Free Next.js Startup Website Template
 
-NextSSS is a [Next.js](https://nextjs.org/) starter template especially for static site including full setup for TypeScript, Tailwind CSS, Google Analytics, Next SEO, active link component, etc.
+Startup free, open-source, and premium-quality startup website template for Next.js comes with everything you need to launch a startup, business, or SaaS website, including all essential sections, components, and pages.
 
-## How to Use
+If you're looking for a high-quality and visually appealing, feature-rich Next.js Template for your next startup, SaaS, or business website, this is the perfect choice and starting point for you!
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the template:
+### ✨ Key Features
+- Crafted for Startup and SaaS Business
+- Next.js and Tailwind CSS
+- All Essential Business Sections and Pages
+- High-quality and Clean Design
+- Dark and Light Version
+- TypeScript Support
+and Much More ...
 
-```bash
-npx create-next-app --example https://github.com/ixkaito/nextsss
-```
+### 🙌 Detailed comparison between the Free and Pro versions of Startup
 
-or
+| Feature             | Free | Pro |
+|---------------------|------------|----------|
+| Next.js Landing Page             | ✅ Yes      | ✅ Yes      |
+| All The Integrations - Auth, DB, Payments, Blog and many more ...             | ❌ No      | ✅ Yes |
+| Homepage Variations             | 1      | 2 |
+| Additional SaaS Pages and Components             | ❌ No      | ✅ Yes |
+| Functional Blog with Sanity       | ❌ No      | ✅ Yes | ✅ Yes |
+| Use with Commercial Projects            | ✅ Yes      | ✅ Yes      |
+| Lifetime Free Updates             | ✅ Yes      | ✅ Yes |
+| Email Support       | ❌ No         | ✅ Yes       |
+| Community Support         | ✅ Yes         | ✅ Yes       |
 
-```bash
-yarn create next-app --example https://github.com/ixkaito/nextsss
-```
 
-### Google Analytics
+### [🔥 Get Startup Pro](https://nextjstemplates.com/templates/saas-starter-startup)
 
-Edit `GA_TRACKING_ID` in `/lib/gtag.ts`.
+[![Startup Pro](https://raw.githubusercontent.com/NextJSTemplates/startup-nextjs/main/startup-pro.webp)](https://nextjstemplates.com/templates/saas-starter-startup)
 
-Example:
+Startup Pro - Expertly crafted for fully-functional, high-performing SaaS startup websites. Comes with with Authentication, Database, Blog, and all the essential integrations necessary for SaaS business sites.
 
-```ts
-export const GA_TRACKING_ID = 'G-XXXXXXXXXX'
-```
 
-### Active `className` on a link
+### [🚀 View Free Demo](https://startup.nextjstemplates.com/)
 
-Example:
+### [🚀 View Pro Demo](https://startup-pro.nextjstemplates.com/)
 
-```ts
-import Link from '../components/ActiveLink'
+### [📦 Download](https://nextjstemplates.com/templates/startup)
 
-const Nav: React.FC = () => {
-  return (
-    <nav>
-      <Link href="/">Home</Link>
-      <Link href="/about/">About</Link>
-    </nav>
-  )
-}
+### [🔥 Get Pro](https://nextjstemplates.com/templates/saas-starter-startup)
 
-export default Nav
-```
+### [🔌 Documentation](https://nextjstemplates.com/docs)
 
-This will dynamically add the `active` class name to each links. You can also change the `activeClassName` like this:
+### ⚡ Deploy Now
 
-```ts
-import Link from '../components/ActiveLink'
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FNextJSTemplates%2Fstartup-nextjs)
 
-const Nav: React.FC = () => {
-  return (
-    <nav>
-      <Link href="/" activeClassName="current">
-        Home
-      </Link>
-      <Link href="/about/" activeClassName="current">
-        About
-      </Link>
-    </nav>
-  )
-}
+[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/NextJSTemplates/startup-nextjs)
 
-export default Nav
-```
 
-### Image Component
+### 📄 License
+Startup is 100% free and open-source, feel free to use with your personal and commercial projects.
 
-You can use the same syntax of [next/image](https://nextjs.org/docs/api-reference/next/image) with static export.
+### 💜 Support
+If you like the template, please star this repository to inspire the team to create more stuff like this and reach more users like you!
 
-Example:
-
-```ts
-import Image from '../components/Image'
-import example1 from '../public/example1.png'
-
-const Home: React.FC = () => {
-  return (
-    <Image src={example} alt="Example 1" />
-    <Image src="/example2.png" width={600} height={400} alt="Example 2" />
-  )
-}
-
-export default Home
-```
-
-Note: If you want to deploy the project to Vercel, remove the custom loader from `next.config.js` and `components/Image.tsx`.
-
-`next.config.js`
-
-```diff
- ...
--  images: {
--    loader: 'custom',
--    path: '/',
--  },
- ...
-```
-
-`components/Image.tsx`
-
-```diff
- ...
--const customLoader = ({ src }: { src: string }) => {
--  return src
--}
-
- const Image = (props: ImageProps) => {
--  return <NextImage {...props} loader={customLoader} />
-+  return <NextImage {...props} />
- }
- ...
-```
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## License
-
-MIT
+### ✨ Explore and Download - Free [Next.js Templates](https://nextjstemplates.com)

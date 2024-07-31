@@ -1,0 +1,5 @@
+.bg-photo {
+    background-image: url('/images/HomeTop.jpg');
+    background-size: cover;
+    background-position: center;
+  }

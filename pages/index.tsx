@@ -1,6 +1,7 @@
 import { NextSeo } from 'next-seo'
 import clsx from 'clsx'
 import Layout1 from '../components/Layout1'
+import HomeTop from '../components/HomeTop'
 import Image from '../components/Image'
 import styles from '../styles/Home.module.scss'
 import logo from '../public/logo@2x.png'
@@ -15,6 +16,8 @@ const Home: React.FC = () => {
           type: 'website',
         }}
       />
+      <div><HomeTop /></div>
+      
       <div
         className={clsx(
           'grid grow shrink-0 place-content-center place-items-center',

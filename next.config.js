@@ -1,13 +1,15 @@
-/**
- * @type {import('next/dist/next-server/server/config').NextConfig}
- **/
-const config = {
-  reactStrictMode: true,
-  trailingSlash: true,
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   images: {
-    loader: 'custom',
-    path: '/',
+    domains: ["localhost"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "cdn.sanity.io",
+        port: "",
+      },
+    ],
   },
-}
+};
 
-module.exports = config
+module.exports = nextConfig;

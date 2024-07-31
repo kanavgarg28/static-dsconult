@@ -1,0 +1,46 @@
+.bannerWrapper {
+    background-color: var(--background-default);
+  }
+  
+  .bannerVerticalCenter {
+    padding-top: 40px; /* Assuming theme.spacing(5) = 8px * 5 = 40px */
+  }
+  
+  .carouselItem {
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .bannerContent {
+    margin: auto;
+    text-align: left;
+    padding-bottom: 40px;
+  }
+  
+  .bannerHeading {
+    color: var(--text-secondary);
+    margin-bottom: 0;
+    padding-bottom: 40px;
+  }
+  
+  .bannerBody {
+    color: var(--text-disabled);
+    padding: 24px 0; /* Assuming theme.spacing(3) = 8px * 3 = 24px */
+  }
+  
+  .bannerButton {
+    border-radius: 50px;
+    border-color: var(--primary-main);
+    color: var(--primary-main);
+    padding: 8px 32px; /* Assuming theme.spacing(1, 4) = 8px * 1 = 8px, 8px * 4 = 32px */
+  }
+  
+  .bannerButton:hover {
+    background-color: var(--primary-main);
+    color: var(--common-white);
+  }
+  
+  .carouselControl {
+    text-decoration: none;
+  }

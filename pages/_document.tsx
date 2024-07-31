@@ -45,7 +45,6 @@ class MyDocument extends Document {
           <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-            integrity="sha384-1ycT3CpRDQUJuhqcBdV7joCClb8Uj1ycVDVRRkm4gddm4/2z5p6cprS5ATYlGonz"
             crossOrigin="anonymous"
           />
         </Head>
